@@ -7,7 +7,7 @@ The language proposed by me in this work was based in JSON.
 
 Example of code in JSONLang:
 
-`{
+```{
     "coment":"Prog Principal",
         "main": {
             "scope":{
