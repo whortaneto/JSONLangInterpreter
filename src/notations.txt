@@ -1,0 +1,113 @@
+
+{
+    "main": {
+        "scope": {
+            "coment": "Comentário de teste",
+            "var": ["a = 2", "b", "c"],
+            "function": {
+                "parameters": ["a", "b", "c"],
+                "scope": {
+                    "if": {
+                        "condition" : "'a < b'",
+                        "scope": {
+
+                        }, 
+                        "else" : {
+                            "scope": {
+
+                            }
+                        }
+                    },
+                    "a": "'b + c'",
+                    "for": {
+                        "var": "i = 0",
+                        "condition": "'i < 10'",
+                        "do": "i++",
+                        "scope": {
+                        
+                        }
+                    }
+                }
+            },
+            "a": "2 + 4"
+        }
+    }
+}
+
+{
+    "coment":"Prog Principal",
+        "main": {
+            "scope":{
+                "var":["cont"],
+                "cont":"soma(cont,5)",
+                "write":"OILAASKJHASG",
+                "coment":"Somar Numeros",
+                "function":{
+                    "name":"soma",
+                    "parameters":["x","y"],
+                    "scope":{
+                        "var":["saida"],
+                        "expression":"saida = x + y",
+                        "return":"saida"
+                        }
+                }
+            }
+        }
+}
+
+Erro léxico : 
+    1 - Atribuição de variáveis fora de um scope;
+    2 - Utilizar propriedade fora do escopo certo;
+    3 - Condição de if ou for feita de forma errada;
+    4 - Passagem do For feita de forma errada;
+    5 - Variavel nao declarada;
+
+operadores, tipos, identificadores, separadores, palavra chave
+
+
+erros possiveis: identificador com numeral, comentario em bloco
+
+function (a, b) {
+    if (a < b) {
+        console.log(a);
+    } else {
+        console.log(b);
+    }
+}
+
+function : {
+    parameters: ['a', 'b'],
+    if: {
+        condition: 'a < b',
+        so: {
+            print: ['a']
+        },
+        else: {
+            print: ['b']
+        }
+    }
+}
+
+general : ['scope', 'coment'],
+        scope: ['var', 'if', 'for', 'coment', 'function'],
+        if: ['scope', 'condition', 'else', 'coment'],
+        else: ['scope', 'condition', 'coment'],
+        for: ['scope', 'var', 'condition', 'do', 'coment'],
+        function: ['scope', 'parameters', 'coment']
+
+
+
+
+main () {
+    //Comentário de teste
+    var aluno, b, c;
+    if ( a < b) {
+        aluno = b + c;
+    } else {
+
+    }
+    /*b = b + c;
+    for ( var i = 0; i < 10; i++) {
+
+    }*/
+}

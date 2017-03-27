@@ -1,0 +1,13 @@
+{
+  "name": "interpreter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lexer.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

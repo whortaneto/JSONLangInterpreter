@@ -1,0 +1,10 @@
+{
+        "general" : ["scope", "coment"],
+        "scope": ["var", "if", "for", "coment", "function", "write", "return", "functions"],
+        "if": ["scope", "condition", "else", "coment"],
+        "else": ["scope", "condition", "coment"],
+        "for": ["scope", "var", "condition", "do", "coment"],
+        "function": ["scope", "parameters", "coment", "name"],
+        "all": ["scope", "coment", "var", "if", "for", "function", "condition",
+            "else", "do", "parameters", "functions"]
+}
