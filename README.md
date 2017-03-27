@@ -7,7 +7,8 @@ The language proposed by me in this work was based in JSON.
 
 Example of code in JSONLang:
 
-```{
+```
+{
     "coment":"Prog Principal",
         "main": {
             "scope":{
@@ -25,7 +26,8 @@ Example of code in JSONLang:
                 }
             }
         }
-}```
+}
+```
 To run that project you just have to do npm install and execute the file app.js via node app.js
 
 The project has a built in code editor, when you execute the file app.js the editor can be accessed in the link http://localhost:8080/index.
