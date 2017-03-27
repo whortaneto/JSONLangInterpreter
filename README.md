@@ -22,7 +22,7 @@ Example of code in JSONLang:
                         "expression":"saida = x + y",
                         "return":"saida"
                         }
-                }
+                }
             }
         }
 }```
